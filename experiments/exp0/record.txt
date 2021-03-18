@@ -1,0 +1,26 @@
+RESULTS
+Evaluation metric:
+Final generator loss: 0.7264295785427093
+Final critic loss: 0.7092995393276218
+Training time: 11200.70 seconds
+DATA
+sine
+sequence length: 30
+num_samples: 3200
+num_signals: 1
+freq_range: 1 to 5
+amp_range: 0.1 to 0.9
+
+MODEL PARAMETERS
+z dim: 5
+hidden gen dim: 100
+hidden crit dim: 100
+number of layers: 2
+number of generator updates per critic update: 5
+
+HYPERPARAMETERS
+Number of epochs: 500
+batch size: 32
+
+OPTIMIZER
+learning rate: 0.1, beta1: 0.9, beta2: 0.999
